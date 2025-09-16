@@ -1,5 +1,5 @@
 import './style.css'
-import './bases/03-object-literals'
+import './bases/04-arrays'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
