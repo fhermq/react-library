@@ -1,4 +1,16 @@
-const ironman = {
+interface Person {
+    firstName: string;
+    lastName: string;
+    age: number;
+    address?: Adress;
+}
+
+interface Adress {
+        postalCode: string,
+        city: string,
+}
+
+const ironman: Person = {
     firstName: 'Tony',
     lastName: 'Stark',
     age: 45,
@@ -8,13 +20,8 @@ const ironman = {
     }
 };
 
+
 //Operador spread 
 //const spiderman = { ...ironman };
-const spiderman = structuredClone(ironman);
-
-spiderman.firstName = 'Peter';
-spiderman.lastName = 'Parker';
-spiderman.address.city = 'Santa Fé';
 
 console.log(ironman);
-console.log(spiderman);
