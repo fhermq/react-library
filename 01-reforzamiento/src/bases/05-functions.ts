@@ -54,3 +54,6 @@ const myNumbers: number[] = [1,2,3,4,5];
 myNumbers.forEach((value) => {
     console.log({value})
 });
+
+//Más simplificado, se pasan los elementos completos callback
+// myNumbers.forEach(console.log);
