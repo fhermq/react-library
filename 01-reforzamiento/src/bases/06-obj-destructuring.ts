@@ -26,7 +26,7 @@ const useContext = ({ name, age, key, rank = 'sin rango' }: Hero) => {
     };
 };
 
-const context = useContext(person);
+// const context = useContext(person);
 
 //
 const { rank, keyName, user: { name }, user: { age } } = useContext(person);
