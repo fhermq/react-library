@@ -1,6 +1,6 @@
 import './style.css'
 // import './bases/06-obj-destructuring'
-import './bases/07-array-destructuring'
+import './bases/00-ejercicio-destructuring-functions'
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
