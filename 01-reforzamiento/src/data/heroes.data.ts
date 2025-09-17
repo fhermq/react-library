@@ -1,4 +1,4 @@
-type Owner = 'DC' | 'Marvel';
+export type Owner = 'DC' | 'Marvel' | 'Multiverso';
 
 // enum Owner {
 //     DC = 'DC',
