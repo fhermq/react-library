@@ -1,4 +1,4 @@
-import { heroes, type Hero, type Owner } from "../data/heroes.data"
+import { heroes, type Owner } from "../data/heroes.data"
 
 
 // const myArray:number[] = [1,2,3,4,5,6];
