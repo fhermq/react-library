@@ -24,7 +24,6 @@ const getRandomGifUrl = async (): Promise<string> => {
 getRandomGifUrl().then(createImageInsideDOM);
 
 
-
 /*
 myRequest
     .then((response) => response.json())
